@@ -27,14 +27,15 @@ html {
 .banner {
   position: relative;
   overflow: hidden;
-  max-height: inherit;
+  max-height: 24em;
+  align-items: center;
 }
 
 .banner-content {
-  margin: auto 0;
   font-weight: bolder;
   position: absolute;
   bottom: 1px;
-  left: 2px;
+  left: 50%;
+  transform: translateX(-50%);
   color: #fff;
 }
